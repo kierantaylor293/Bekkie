@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Meddon&display=swap');
 
 /* Basic */
 
@@ -688,3 +690,19 @@ h2 {
 	text-decoration: none;
 	color: #000;
 }
+
+
+
+.meddon-regular {
+	font-family: "Meddon", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+  .aguafina-script-regular {
+	font-family: "Aguafina Script", cursive;
+	font-weight: 400;
+	font-style: normal;
+	color:#FF4000;
+	font-size: 200%;
+  }
