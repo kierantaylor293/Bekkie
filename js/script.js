@@ -83,8 +83,10 @@ async function updateDescription(elementName) {
 
 
 function buttonClicked() {
+      var password = new String(document.getElementById("password").value).toLowerCase();
 
-   if(document.getElementById("password").value == "thesteamcrane") {
+
+   if(password == "thesteamcrane") {
       document.getElementById("loveMessage").style.display = "block";
       document.getElementById("passwordAndButton").style.display = "none";
       document.getElementById("loveMessage").innerHTML = "I just wanted to say, that I love you. <br>Severely.<br><br> You're my favourite person.<br> You're lovely, kind, smart, beautiful and I'm so lucky to have met you. <br>I miss you. I cherish every second I spend with you, so I just want to continue spending them with you. ❤️🍅"
