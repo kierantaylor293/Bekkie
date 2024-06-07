@@ -46,28 +46,57 @@
       <div class="container-fluid pb-5 portfolio-text">
          <div class="row">
             <div class="col-md-7 offset-md-1 col-sm-12">
-               <h2>You all know me. You're my friends.<br>
-                  You know I'm <br><br><div id="descriptionid" class="aguafina-script-regular" style="font-family: 'Aguafina Script', cursive;
+               <h2>You are:<br>
+                  <br><div id="descriptionid" class="aguafina-script-regular" style="font-family: 'Aguafina Script', cursive;
                   font-weight: 400;
                   font-style: normal;
                   color:#FF4000;
                   font-size: 200%;">Just a Girl</div> <br>
-                  But do you know my story?<br>
-                  Do you follow me on Linkedin?<br>
-                  Do you ask Huw Lougher for my annual reviews?
-               </h2>
+                  <div id="beforeBirthday" style="display: none;">
+                     But this is just a reminder that in<br><br>
+                     <div id="countDown" style="
+                     font-size:120%; color:#FF4000;"></div><br>
+                     your prefrontal cortex will be fully developed.<br>
+                     You're finally going to be able to make good decisions.
+                  </div>
+                  <div id="onBirthday" style="display: none; ">
+                     <div style="text-transform: uppercase;">But holy shit</div>
+                     <div style="
+                     font-size:120%; color:#FF4000;">It's your birthday!</div><br>
+                     Your pre frontal cortex is now fully developed.<br>
+                     Congratulations!<br><br>
+                     <div id="passwordAndButton">
+                     Just want to give you a birthday message, so type in the password and hit the button<br><br>
+                     <input type="text" id="password"><br><br>
+                     
+                     <button class="btn" id="btnToRevealMessage" onclick="buttonClicked()">This button</button> <br>
+                     <p class="" id="wrongPassword" style="font-family: 'Open Sans', sans-serif; display: none;" >Wrong password!</p> 
+                  </div>
+                     <p class="pb-5 pt-5" id="loveMessage" style="font-family: 'Open Sans', sans-serif; display: none;"></p>
+                  </div>
+                  <div id="afterBirthday" style="display: none;">
+                     <div id="beforeBirthday">
+                        You are currently<br><br>
+                        <div id="currentAge" style="
+                        font-size:120%; color:#FF4000;"></div>
+                        <p class="pb-5 pt-5" style="font-family: 'Open Sans', sans-serif; ">Love you!</p>
+                     </div>
+                  </div>
+               </h2><br>
+               
+            
             </div>
          </div>
-         <div class="row">
+         <!-- <div class="row">
             <div class="col-md-7 offset-md-1 col-sm-12">
                <p class="pb-5 pt-5">
                   If you scroll down, you'll find some pictures and my socials. So whenever you're feeling down, just revisit this site, and you'll be fixed.<br>
-                  Thanks for this opportunity Jas xxx.
+                  
                </p>
                
             </div>
 
-         </div>
+         </div> -->
       </div>
 
       <!-- Gallery -->

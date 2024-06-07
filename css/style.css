@@ -16,7 +16,12 @@ html {
 }
 
 .btn {
-	border-radius: 0;
+	border-radius: 10px;
+	background-color: #FF4000;
+	color: #ebeae9;
+	font-weight: bold;
+	font-size: 120%;
+
 }
 
 a:link,
@@ -44,7 +49,7 @@ h1 {
 h2 {
 	line-height: 110%;
 	font-size: 2.2rem;
-	text-transform: uppercase;
+	
 	font-weight: 700;
 }
 
@@ -151,6 +156,7 @@ h2 {
 		right: 15px;
 	}
 }
+
 
 .button_container.active .top {
 	transform: translateY(9px) translateX(0) rotate(45deg);
