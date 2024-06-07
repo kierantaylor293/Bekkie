@@ -30,7 +30,7 @@ function updateCount() {
 
 
 
-   var countDownDate = new Date(2024,5,6,0,0,0).getTime();
+   var countDownDate = new Date(2024,6,14,0,0,0).getTime();
 
    // Update the count down every 1 second
    var x = setInterval(function() {
